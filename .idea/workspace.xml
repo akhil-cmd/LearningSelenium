@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc5617b-bf6d-4654-8ab3-d7bcaf74889f" name="Changes" comment="" />
+    <list default="true" id="1cc5617b-bf6d-4654-8ab3-d7bcaf74889f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/Selenium09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/Selenium10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +25,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "akhil-cmd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;akhil-cmd&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -34,6 +38,9 @@
         <option name="url" value="https://github.com/akhil-cmd/LearningSelenium.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -46,21 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.thetestingacademy.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium06">
-    <configuration name="Selenium02" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium/testng.xml">
+    <configuration name="Selenium09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium09" />
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
@@ -68,26 +76,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium02" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium03" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,12 +124,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATBLearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium10" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium/testng.xml" />
+        <item itemvalue="TestNG.Selenium10" />
+        <item itemvalue="Application.Selenium09" />
         <item itemvalue="TestNG.Selenium06" />
         <item itemvalue="TestNG.Selenium05" />
-        <item itemvalue="TestNG.Selenium02" />
-        <item itemvalue="TestNG.Selenium03" />
       </list>
     </recent_temporary>
   </component>
