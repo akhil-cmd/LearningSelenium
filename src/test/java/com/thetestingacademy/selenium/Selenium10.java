@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 public class Selenium10 {
 
-
-    @Test
+    @Test(groups = "QA")
     @Description("Verify current URL")
     public void testVWOLogin(){
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://app.vwo.com");
         System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
 
         Assert.assertEquals(driver.getTitle(), "Login - VWO");
         Assert.assertEquals(driver.getCurrentUrl(), "https://app.vwo.com/#/login");
