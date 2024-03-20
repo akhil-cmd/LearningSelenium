@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc5617b-bf6d-4654-8ab3-d7bcaf74889f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium16032024/Selenium11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium16032024/Selenium12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium16032024/Selenium13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium17032024/Flipkart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium17032024/Selenium14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium17032024/Selenium15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/Selenium10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/Selenium10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -63,60 +67,22 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.selenium.selenium17032024" />
+      <recent name="com.thetestingacademy.selenium.selenium16032024" />
       <recent name="com.thetestingacademy.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium11">
-    <configuration name="Selenium09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium09" />
+  <component name="RunManager" selected="TestNG.Selenium15">
+    <configuration name="Flipkart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.*" />
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium17032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATBLearningSelenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium06" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATBLearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium06" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium10" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATBLearningSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.Selenium10" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium17032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium17032024.Flipkart" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -141,13 +107,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium12" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATBLearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium16032024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium16032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium16032024.Selenium12" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium13" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATBLearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium16032024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium16032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium16032024.Selenium13" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium15" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATBLearningSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium17032024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium17032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium17032024.Selenium15" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium15" />
+        <item itemvalue="TestNG.Flipkart" />
+        <item itemvalue="TestNG.Selenium13" />
+        <item itemvalue="TestNG.Selenium12" />
         <item itemvalue="TestNG.Selenium11" />
-        <item itemvalue="TestNG.C:/Users/AKHIL/IdeaProjects/ATBLearningSelenium/testng.xml" />
-        <item itemvalue="TestNG.Selenium10" />
-        <item itemvalue="Application.Selenium09" />
-        <item itemvalue="TestNG.Selenium06" />
       </list>
     </recent_temporary>
   </component>
