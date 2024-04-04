@@ -1,19 +1,21 @@
-package com.thetestingacademy.selenium.selenium24032024;
+package com.thetestingacademy.selenium.selenium30032024;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.devtools.v120.overlay.model.LineStyle;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
-public class Selenium24 {
+public class Selenium29 {
 
     WebDriver driver;
 
@@ -32,25 +34,25 @@ public class Selenium24 {
 
 
 
+
+
+
+
+
     @Test(groups = "QA")
     @Description("Test Case Description")
-    public void shadowDom() throws InterruptedException {
+    public void testPositive() throws InterruptedException {
 
-        driver.get("https://selectorshub.com/xpath-practice-page/");
+        driver.get("https://www.flipkart.com/");
         driver.manage().window().maximize();
 
-        //document.querySelector("div#userName").shadowRoot.querySelector("div").shadowRoot.querySelector("input#pizza")
+        driver.findElement(By.name("q")).sendKeys("macmini");
 
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement scroll = driver.findElement(By.xpath("//div[@id=\"userName\"]"));
-        js.executeScript("arguments[0].scrollIntoView(true);", scroll);
+        List<WebElement> svgElements = driver.findElements(By.xpath("//*[local-name()='svg']"));
+        svgElements.get(0).click();
+        //(//*[local-name()="svg"])[1]
 
         Thread.sleep(3000);
-
-        WebElement inputBoxpizza = (WebElement) js.executeScript(" return document.querySelector(\"div#userName\").shadowRoot.querySelector(\"div\").shadowRoot.querySelector(\"input#pizza\")");
-        inputBoxpizza.sendKeys("FarmHouse");
-
-        Thread.sleep(10000);
 
     }
 

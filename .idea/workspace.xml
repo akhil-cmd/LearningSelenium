@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cc5617b-bf6d-4654-8ab3-d7bcaf74889f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium24032024/Selenium24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium24032024/Selenium25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium24032024/Selenium26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium24032024/Selenium28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium31_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium31032024/Selenium36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium31032024/Selenium37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium31032024/Selenium38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium31032024/Selenium39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium31032024/toUpload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium24032024/Selenium24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium24032024/Selenium24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,24 +79,24 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.selenium.selenium31032024" />
+      <recent name="com.thetestingacademy.selenium.selenium30032024" />
       <recent name="com.thetestingacademy.selenium.selenium24032024" />
       <recent name="com.thetestingacademy.selenium.selenium23032024" />
       <recent name="com.thetestingacademy.selenium.selenium17032024" />
-      <recent name="com.thetestingacademy.selenium.selenium16032024" />
-      <recent name="com.thetestingacademy.selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium25">
-    <configuration name="Selenium19" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Selenium39.testPositive">
+    <configuration name="Selenium35" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium23032024.*" />
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium30032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium23032024" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium23032024.Selenium19" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium30032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium30032024.Selenium35" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,16 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium21" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium36" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium23032024.*" />
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium23032024" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium23032024.Selenium21" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium31032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium31032024.Selenium36" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,16 +121,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium22" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium37" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium23032024.*" />
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium23032024" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium23032024.Selenium22" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium31032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium31032024.Selenium37" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,16 +138,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium24.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium38.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium24032024.*" />
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium24032024" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium24032024.Selenium24" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium31032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium31032024.Selenium38" />
       <option name="METHOD_NAME" value="testPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -142,17 +156,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium25" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium39.testPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATBLearningSelenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium24032024.*" />
+          <option name="PATTERN" value="com.thetestingacademy.selenium.selenium31032024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium24032024" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium24032024.Selenium25" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.selenium.selenium31032024" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.selenium.selenium31032024.Selenium39" />
+      <option name="METHOD_NAME" value="testPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Selenium25" />
-        <item itemvalue="TestNG.Selenium24.testPositive" />
-        <item itemvalue="TestNG.Selenium22" />
-        <item itemvalue="TestNG.Selenium21" />
-        <item itemvalue="TestNG.Selenium19" />
+        <item itemvalue="TestNG.Selenium39.testPositive" />
+        <item itemvalue="TestNG.Selenium38.testPositive" />
+        <item itemvalue="TestNG.Selenium37" />
+        <item itemvalue="TestNG.Selenium36" />
+        <item itemvalue="TestNG.Selenium35" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +213,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium16032024/Selenium11.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/selenium/selenium30032024/Selenium31_1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

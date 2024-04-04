@@ -5,15 +5,16 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
-public class Selenium24 {
+public class Selenium26 {
 
     WebDriver driver;
 
@@ -32,26 +33,30 @@ public class Selenium24 {
 
 
 
+
+
+
+
+
     @Test(groups = "QA")
     @Description("Test Case Description")
-    public void shadowDom() throws InterruptedException {
+    public void testPositive() throws InterruptedException {
 
-        driver.get("https://selectorshub.com/xpath-practice-page/");
+        driver.get("https://the-internet.herokuapp.com/checkboxes");
         driver.manage().window().maximize();
 
-        //document.querySelector("div#userName").shadowRoot.querySelector("div").shadowRoot.querySelector("input#pizza")
+        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type=\"checkbox\"]"));
 
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement scroll = driver.findElement(By.xpath("//div[@id=\"userName\"]"));
-        js.executeScript("arguments[0].scrollIntoView(true);", scroll);
+        WebElement ch1 = checkboxes.get(0);
+        ch1.click();
+
+        WebElement ch2 = checkboxes.get(1);
+        ch2.click();
 
         Thread.sleep(3000);
 
-        WebElement inputBoxpizza = (WebElement) js.executeScript(" return document.querySelector(\"div#userName\").shadowRoot.querySelector(\"div\").shadowRoot.querySelector(\"input#pizza\")");
-        inputBoxpizza.sendKeys("FarmHouse");
 
-        Thread.sleep(10000);
-
+        //table[@id="customers"]/tbody/tr[]/td[]
     }
 
 

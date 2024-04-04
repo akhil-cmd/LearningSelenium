@@ -1,19 +1,14 @@
-package com.thetestingacademy.selenium.selenium24032024;
+package com.thetestingacademy.selenium.selenium30032024;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class Selenium24 {
+public class Practice {
 
     WebDriver driver;
 
@@ -39,18 +34,23 @@ public class Selenium24 {
         driver.get("https://selectorshub.com/xpath-practice-page/");
         driver.manage().window().maximize();
 
-        //document.querySelector("div#userName").shadowRoot.querySelector("div").shadowRoot.querySelector("input#pizza")
+
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement scroll = driver.findElement(By.xpath("//div[@id=\"userName\"]"));
         js.executeScript("arguments[0].scrollIntoView(true);", scroll);
 
-        Thread.sleep(3000);
 
-        WebElement inputBoxpizza = (WebElement) js.executeScript(" return document.querySelector(\"div#userName\").shadowRoot.querySelector(\"div\").shadowRoot.querySelector(\"input#pizza\")");
-        inputBoxpizza.sendKeys("FarmHouse");
+//        WebElement linkHub = (WebElement) js.executeScript(" return document.querySelector(\"div#userName\").shadowRoot.querySelector(\".learningHub\")");
+      //  WebElement linkHub = (WebElement) js.executeScript("return document.querySelector(\"div#userName\").shadowRoot.querySelector(\".learningHub\")");
 
-        Thread.sleep(10000);
+        //WebElement linkHub = (WebElement) js.executeScript("return document.querySelector(\"div#userName\").shadowRoot.querySelector(\".learningHub\")");
+
+        WebElement linkHub = (WebElement) js.executeScript("return document.querySelector(\"div#userName\").shadowRoot.querySelector(\".learningHub\")");
+        System.out.println(linkHub.getText());
+        linkHub.click();
+
+
 
     }
 
